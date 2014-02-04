@@ -1,9 +1,8 @@
-========================================
 GIT - Pre-Commit check for certain words
-=======================================
+----------------------------------------
 
 :Author: Nikolaos Dimopoulos <nikos@niden.net>
-:Thanks to: Remigijus Jarmalavicius <remigijus(a)jarmalavicius.lt>
+:Thanks to: Remigijus Jarmalavicius <remigijus(at)jarmalavicius.lt>
 
 About
 -----

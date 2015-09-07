@@ -14,6 +14,7 @@ How to install
 To install hook, copy pre-commit file to your project .git/hooks/pre-commit:
 
     $ cp pre-commit .git/hooks/pre-commit;
+    
     $ chmod +x .git/hooks/pre-commit;
 
 The hook comes with the "die", "print_r" and "var_dump" functions as the strings to 

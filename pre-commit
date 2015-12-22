@@ -12,7 +12,7 @@ element_count=${#checks[@]}
 let "element_count = $element_count + 1"
 
 ROOT_DIR="$(pwd)/"
-LIST=$(git status | grep -e '\#.*\(modified\|added\)')
+LIST=$(git status | grep -e '.*\(modified\|added\)')
 ERRORS_BUFFER=""
 for file in $LIST
 do

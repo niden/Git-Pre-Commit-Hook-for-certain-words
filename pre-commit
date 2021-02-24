@@ -31,7 +31,7 @@ do
             while [ "$index" -lt "$element_count" ]
             do
                 echo "Checking $FILE_ACTION file: $file [${checks[$index]}]" 
-                ERRORS=$(grep "${checks[$index]}" $ROOT_DIR$file >&1)
+                ERRORS=$(grep "\b${checks[$index]}\b" $ROOT_DIR$file >&1)
                 if [ "$ERRORS" != "" ]; then
                     if [ "$ERRORS_BUFFER" != "" ]; then
                         ERRORS_BUFFER="$ERRORS_BUFFER\n$ERRORS"
